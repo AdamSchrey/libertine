@@ -83,6 +83,7 @@ class LibertineChroot(BaseContainer):
         utils.get_logger().info(utils._("Fixing chroot symlinks..."))
         os.remove(os.path.join(self.root_path, 'dev'))
         os.remove(os.path.join(self.root_path, 'proc'))
+        self.run_in_container('apt remove -y makedev')
 
         with open(os.path.join(self.root_path, 'usr', 'sbin', 'policy-rc.d'), 'w+') as fd:
             fd.write("#!/bin/sh\n\n")
