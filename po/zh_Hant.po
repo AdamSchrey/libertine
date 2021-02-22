@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-05-03 21:03+0000\n"
+"PO-Revision-Date: 2021-02-21 02:14+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/libertine/zh_Hant/>\n"
@@ -17,111 +17,107 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "容器應用程式「{application_name}」為無效。"
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "在快照環境中使用當前不支援的 Apt 快取"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "在 {socket} 上檢測到關閉"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "啟動 {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "收到 SIGCHLD"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "啟動中的程式已退出"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT 已收到"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "中斷"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERM 已收到"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "終止"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "收到未知訊號「{signal}」"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "以當地或在 Libertine 容器中啟動應用程式"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "啟動容器化的應用程式時的容器識別"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "設置可變環境"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "執行路徑"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "必須指定執行路徑"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "在 lxc/lxd Libertine 容器內啟動 SSH 會話"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "容器資訊"
+msgstr "容器識別"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "容器名稱"
+msgstr "容器使用者名稱"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "要使用的 SSH 密鑰"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "對所有提示假設為\"是\""
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
-msgstr ""
+msgstr "身份檔未在「{}」中找到，留空為預設值。"
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "找不到「{}」相對應的公共密鑰。"
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
-msgstr ""
+msgstr "與「{}」匹配的已設置身份文件或密鑰並不存在。"
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -129,98 +125,102 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"看起來沒有設置 SSH 密鑰。請生成密鑰並重試。您可以使用以下指令產生相應的密鑰：\n"
+"\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
-msgstr ""
+msgstr "連接到「{}」時，始終使用「 {}」作為身份文件與使用者名稱「 {}」嗎？ [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "連接到「{}」時，始終使用「{}」作為身份檔？[Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"找不到 sshd。 您可以使用以下命令安裝 openssh：\n"
+" apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
-msgstr ""
+msgstr "「{}」 是一個「{}」容器。只有「lxd」或「lxc」容器才能使用此工具。"
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
-msgstr ""
+msgstr "未在容器「{}」中檢測到 openssh-server」，是否立即安裝？[Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "無法安裝打 openssh 服器"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "無法取得「{}」的 IP 位址"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "是否可以在容器「{}」中添加公開金鑰「{}」？[Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "必須向容器中添加到公共密鑰才能繼續。"
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
-msgstr ""
+msgstr "無法將公共密鑰添加到容器的授權密鑰。"
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "沒有 ID 名為「{container_id}」的容器"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
 msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
-msgstr ""
+msgstr "未安裝容器「{id}」的後端介面，安裝「python3-libertine-{type}」，然後重試。"
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "無效的發行版 {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "容器 ID「{container_id}」已使用。"
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
 msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
-msgstr ""
+msgstr "容器 ID「{container_id}」無效。ID 必須為格式為 ([a-z0-9][a-z0-9+.-]+)。"
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
 msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
-msgstr ""
+msgstr "系統核心不支援 {container_type} 類型的容器。請使用 chroot 或省略 -t 選項。"
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -228,7 +228,7 @@ msgid ""
 "The container distribution needs to match the host distribution for chroot "
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
-msgstr ""
+msgstr "容器發佈需要匹配基於 chroot 的容器的主機發佈。 請使用「{host_distro}」或省略 -d /-distro 選項。"
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -237,188 +237,182 @@ msgid ""
 msgstr "在 Libertine 容器中輸入用戶的密碼或留空則為沒有密碼："
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "更新容器"
+msgstr "無法建立容器"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "無法建立容器：「{error}」"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "「{package_name}」並不存在。"
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "套件 %1 已安裝。"
+msgstr "套件「{package_name}」已安裝。"
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
-msgstr ""
+msgstr "容器「{container_id}」無法安裝「{package_name}」套件"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "套件 %1 已安裝。"
+msgstr "套件「{package_name}」未安裝。"
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
-msgstr ""
+msgstr "容器「{container_id}」無法移除「{package_name}」套件"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
 msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
-msgstr ""
+msgstr "在狀態為非零的容器「{container_id}」中搜尋「 {query_string}」"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "i386 多重結構支援已經 {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
-msgstr ""
+msgstr "配置沒有名稱的封包。 有關使用方法，-- 請參閱。"
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} 已新增到容器中。"
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} 未新增到容器中。"
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} 未正確刪除。"
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
-msgstr ""
+msgstr "配置沒有安裝路徑的綁定安裝。有關使用方法， -- 請參閱"
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
 msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
-msgstr ""
+msgstr "無法安裝「{mount_path}」，安裝路徑必須在「{home_dir}」或「/media/{username}」中。"
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/媒體安裝目前不支援在 lxc。"
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
-msgstr ""
+msgstr "可以安裝「{mount_path}」，安裝路徑必須是現有目錄。"
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr ""
+msgstr "無法新增安裝「{mount_path}」，綁定安裝已存在。"
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "無法移除安裝「{mount_path}」，綁定安裝已存在。"
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
-msgstr ""
+msgstr "此時無法重新啟動容器。 您將需要在以後使用「 restart」子命令來恢復容器。"
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
-msgstr ""
+msgstr "配置凍結僅適用於 LXC 和 LXD 的容器類型。"
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
-msgstr ""
+msgstr "配置不帶子命令的調用。 有關使用方法，-- 請參閱。"
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
-msgstr ""
+msgstr "restart 子命令僅對 LXC 和 LXD 類型的容器有效。"
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "經典 X 應用程式支援 Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "請不要使用「sudo」運行「{program_name}」"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "禁用所有非重要輸出"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "啟用偵錯輸出"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "建立一個新的 Libertine 容器。"
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
-msgstr ""
+msgstr "格式為 ([a-z0-9][a-z0-9+.-]+) 的容器識別，必填。"
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
-msgstr ""
+msgstr "要建立的 Libertine 容器類型。得要是\"lxd\"，\"lxc\"，或者是\"chroot\"。"
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Ubuntu 發行版系列建立。"
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "容器名稱"
+msgstr "使用者方便的容器名稱。"
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
-msgstr ""
+msgstr "強制安裝給定有效的 Ubuntu 發行版， 即使它不再支援。"
 
 #: ../tools/libertine-container-manager:484
 msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
-msgstr ""
+msgstr "將 i386 支援添加到 amd64  Libertine 容器中。 當 Libertine 容器為 i386 時，此選項沒有效果。"
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
-msgstr ""
+msgstr "建立 LXC 容器時傳遞使用者的密碼。 這只用於測試，是非常不安全的。"
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "完全破壞任何現有的環境。"
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -431,187 +425,169 @@ msgstr ""
 #: ../tools/libertine-container-manager:670
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
-msgstr ""
+msgstr "容器識別。 如果省略了預設容器，則使用原始預設容器。"
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
-msgstr ""
+msgstr "將  i386 支援添加到 amd64 Libertine 容器中。 當 Libertine 容器為 i386 時，此選項為無效。"
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
-msgstr ""
+msgstr "在指定的 Libertine 容器中安裝一個或多個套件。"
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
-msgstr ""
+msgstr "套件的名稱或 Debian 套件的完整路徑。可以輸入多個套件，用空格隔開，必填。"
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
-msgstr ""
+msgstr "沒有對話模式。 在 text-based 交互過程中使用基於文本的前端。"
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "移除指定的 Libertine 容器中的套件。"
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
-msgstr ""
+msgstr "要移除套件的名稱。可以輸入多個套件，用空格隔開，必填。"
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
-msgstr ""
+msgstr "根據指定的 Libertine 容器中的字串搜尋套件。"
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "在套件快取中搜尋字串，必填。"
 
 #: ../tools/libertine-container-manager:556
 msgid ""
 "Update the packages in the Libertine container.  Also updates the "
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
-msgstr ""
+msgstr "更新 Libertine 容器中的套件。   此外，如果主機的語言環境已變更，還會更新容器的當地語言，並安裝必要的語言包。"
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "列出所有 Libertine 容器。"
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "在容器中列出可用的應用啟動器。"
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "使用 JSON 輸出格式。"
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "在指定的容器中執行的命令。"
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "在指定的 Libertine 容器中配置各種選項。"
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "i386 multiarch 支援"
+msgstr "多重結構支援"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "啟用或禁用容器的多重結構支援。"
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
-msgstr ""
+msgstr "啟用或禁用 i386 多重結構支援 amd64 Libertine 器。當 Libertine 容器為 i386 時，此選項是沒有效果的。"
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "附加套件"
+msgstr "額外封包支援"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "附加套件和 PPA"
+msgstr "新增或刪除額外封包 （PPA）。"
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
-msgstr ""
+msgstr "在指定的 Libertine 容器中新增或刪除封包 （PPA）。"
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "容器名稱"
+msgstr "封包名稱"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "要新增或刪除的封包名稱。"
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "公共密鑰檔案"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
-msgstr ""
+msgstr "包含用於簽署給定封包的密鑰檔。適用於第三方或私人封包。"
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "附加套件"
+msgstr "附加綁定安裝"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "新增或刪除附加綁定安裝。"
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
-msgstr ""
+msgstr "新增或刪除指定的 Libertine 容器中的綁定安裝。"
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "安裝路徑"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "綁定安裝的絕對主機路徑。"
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "刪除容器"
+msgstr "凍結容器支援"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
-msgstr ""
+msgstr "不使用時啟用或禁用凍結的 LXC/LXD 容器。"
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
-msgstr ""
+msgstr "在不使用時，允許或禁用凍結的 LXC/LXD 容器。禁用時，容器將停止。"
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "預設容器"
+msgstr "設置預設容器。"
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "容器資訊"
+msgstr "容器 ID"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "預設容器"
+msgstr "清除預設容器。"
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
-msgstr ""
+msgstr "重新啟動凍結的 Libertine 容器。 這僅適用於 LXC 和 LXD 類型容器。"
 
 #~ msgid "new"
 #~ msgstr "新增"
