@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-12-31 16:31+0000\n"
-"Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
+"PO-Revision-Date: 2021-03-26 09:58+0000\n"
+"Last-Translator: vokaliz <vokaliz@protonmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "libertine/ru/>\n"
 "Language: ru\n"
@@ -45,9 +45,8 @@ msgid "SIGCHLD received"
 msgstr "принят SIGCHLD"
 
 #: ../python/libertine/launcher/session.py:334
-#, fuzzy
 msgid "launched program exited"
-msgstr "запущенная программа остановилась"
+msgstr "запущенная программа завершена"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
@@ -84,7 +83,7 @@ msgstr "Установить переменную для среды"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr "exec line"
+msgstr "строка exec"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
@@ -212,7 +211,7 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
-"Бэкенд для контейнера '{id}'  не установлен. Установите пакет "
+"Бэкенд для контейнера '{id}' не установлен. Установите пакет "
 "'python3-libertine-{type}' и попробуйте снова."
 
 #: ../tools/libertine-container-manager:59
@@ -435,9 +434,8 @@ msgstr ""
 "Тип создаваемого Libertine-контейнера. Три типа - 'lxd', 'lxc' или 'chroot'."
 
 #: ../tools/libertine-container-manager:474
-#, fuzzy
 msgid "Ubuntu distro series to create."
-msgstr "Дистрибутивы Ubuntu, которые будут установлены"
+msgstr "Создаваемая серия дистрибутивов Ubuntu."
 
 #: ../tools/libertine-container-manager:477
 msgid "User friendly container name."
@@ -507,11 +505,10 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
-#, fuzzy
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
-"Нет диалогового режима. Используйте текстовые команды во время работы с "
-"debconf."
+"Без диалогового режима. Используйте текстовый интерфейс во время "
+"взаимодействия с debconf."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
@@ -550,14 +547,12 @@ msgid "List all Libertine containers."
 msgstr "Список всех контейнеров Libertine."
 
 #: ../tools/libertine-container-manager:572
-#, fuzzy
 msgid "List available app launchers in a container."
-msgstr "Список всех доступных app launchers в контейнере."
+msgstr "Перечень доступных средств запуска приложений в контейнере."
 
 #: ../tools/libertine-container-manager:579
-#, fuzzy
 msgid "use JSON output format."
-msgstr "использовать формат JSON для вывода."
+msgstr "использовать выходной формат JSON."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
@@ -637,8 +632,6 @@ msgid "The absolute host path to bind-mount."
 msgstr "Абсолютный путь к хосту для точки монтирования."
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
 msgstr "Поддержка \"заморозки\" контейнеров"
 
@@ -657,20 +650,16 @@ msgstr ""
 "используются. Если опция отключена, работа контейнера будет остановлена."
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Установить имя контейнера по умолчанию"
+msgstr "Установить контейнер по умолчанию."
 
 #: ../tools/libertine-container-manager:669
 msgid "Container id"
 msgstr "Идентификатор контейнера"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Контейнер по умолчанию"
+msgstr "Создать контейнер по умолчанию."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
