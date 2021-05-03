@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2021-01-30 11:27+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-04-23 15:39+0000\n"
+"Last-Translator: Davide Pruccoli <davide.pruccoli@protonmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -536,15 +536,14 @@ msgid "String to search for in the package cache. Required."
 msgstr "Stringa da cercare nella cache del pacchetto. Richiesto."
 
 #: ../tools/libertine-container-manager:556
-#, fuzzy
 msgid ""
 "Update the packages in the Libertine container.  Also updates the "
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
-"Aggiorna i pacchetti nel contenitore Libertine. Aggiorna anche il locale del "
-"contenitore e installa i pacchetti di lingua se il locale dell'host è "
-"cambiato."
+"Aggiorna i pacchetti nel contenitore Libertine. Aggiorna anche la "
+"localizzazione del contenitore e installa i pacchetti di lingua necessari se "
+"la localizzazione dell'host è cambiata."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
@@ -633,9 +632,8 @@ msgid "Mount path"
 msgstr "Percorso di mount"
 
 #: ../tools/libertine-container-manager:636
-#, fuzzy
 msgid "The absolute host path to bind-mount."
-msgstr "Il percorso assoluto dell'host del bind-mount."
+msgstr "Il percorso assoluto dell'host al bind-mount."
 
 #: ../tools/libertine-container-manager:638
 msgid "Freeze container support"
