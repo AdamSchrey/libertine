@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-12-27 08:16+0000\n"
-"Last-Translator: Manuel Bödder <Manuel.Boedder@web.de>\n"
+"PO-Revision-Date: 2021-05-13 16:00+0000\n"
+"Last-Translator: p.putz <p.putz@yahoo.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -93,7 +93,7 @@ msgstr "Starte eine SSH Sitzung innerhalb eines lxc/lxd Libertine Container"
 
 #: ../tools/libertine-shell:43
 msgid "Container identifier"
-msgstr "Container-ID"
+msgstr "Container ID"
 
 #: ../tools/libertine-shell:45
 msgid "Container username"
@@ -253,7 +253,7 @@ msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
-"Passwort für den Benutzer im Libertine container eingeben, oder leer lassen "
+"Passwort für den Benutzer im Libertine Container eingeben, oder leer lassen "
 "um kein Passwort zu setzten:"
 
 #: ../tools/libertine-container-manager:116
@@ -324,7 +324,7 @@ msgstr "{archive_name} wurde bereits zum Container hinzugefügt."
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr "{archive_name} wurde nicht im Container hinzugefügt."
+msgstr "{archive_name} wurde nicht zum Container hinzugefügt."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
@@ -418,7 +418,7 @@ msgstr "Einen neuen Libertine Container erstellen."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
-msgstr "Container-kennung in der Form ([a-z0-9][a-z0-9 + .-] +). Erforderlich."
+msgstr "Container ID in der Form ([a-z0-9][a-z0-9 + .-] +). Erforderlich."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
@@ -447,8 +447,8 @@ msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
-"Hinzufügen von i386 Unterstützung für AMD64 Libertine-Container. Diese "
-"Einstellung hat keine Auswirkung auf i386 Libertine-Container."
+"Hinzufügen von i386 Unterstützung für AMD64 Libertine Container. Diese "
+"Einstellung hat keine Auswirkung auf i386 Libertine Container."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
@@ -473,12 +473,12 @@ msgstr "Jegliche bestehende Umgebung vollständig zerstören."
 #: ../tools/libertine-container-manager:670
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
-msgstr "Container-ID. Bei Nichtangabe wird der Standard-Container genutzt."
+msgstr "Container ID. Bei Nichtangabe wird der Standard-Container genutzt."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
 msgstr ""
-"Zerstörung erzwingen. Erzwingt das anhalten von laufenden Containern vor der "
+"Zerstörung erzwingen. Erzwingt das Anhalten von laufenden Containern vor der "
 "Zerstörung."
 
 #: ../tools/libertine-container-manager:507
@@ -652,7 +652,7 @@ msgstr "Standard-Container festlegen."
 
 #: ../tools/libertine-container-manager:669
 msgid "Container id"
-msgstr "Container-ID"
+msgstr "Container ID"
 
 #: ../tools/libertine-container-manager:673
 msgid "Clear the default container."
