@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2021-05-13 16:00+0000\n"
-"Last-Translator: p.putz <p.putz@yahoo.de>\n"
+"PO-Revision-Date: 2021-05-15 18:00+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -31,7 +31,7 @@ msgstr "AptCache wird aktuell innerhalb von Snap-Umgebungen nicht unterstützt"
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr "{socket} Verbingung geschlossen"
+msgstr "Schließen auf {socket} erkannt"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
