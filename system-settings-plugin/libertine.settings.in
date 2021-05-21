@@ -1,6 +1,6 @@
 {
     "name": "Libertine",
-    "icon": "${LIBERTINE_PLUGIN_ICON_PATH}/libertine-plugin.png",
+    "icon": "${LIBERTINE_PLUGIN_ICON_PATH}/libertine-plugin.svg",
     "translations": "libertine",
     "category": "system",
     "keywords": [
