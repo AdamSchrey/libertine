@@ -2,7 +2,7 @@ set(CMAKE_INSTALL_SYSCONFDIR "/etc")
 
 install(FILES libertine-manager-app.desktop
         DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
-install(FILES libertine_64.png libertine-lxc.conf
+install(FILES libertine.png libertine-lxc.conf
   DESTINATION ${CMAKE_INSTALL_DATADIR}/${CMAKE_PROJECT_NAME})
 install(FILES libertine-xmir.conf replace-libertine-scope.conf
         DESTINATION ${CMAKE_INSTALL_DATADIR}/upstart/sessions)
